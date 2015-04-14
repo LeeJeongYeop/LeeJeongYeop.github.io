@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Dark Stylesheet]
+
+Project:	FAJAR
+Version:	1.0
+Last change:	Initial RELEASED 
+Primary use:	Dark Color
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+# [Color codes]
+
+# body		background:#222 
+			color:#e6e6e6
+			
+# Dark color 
+  for borders	#404040, #424242, 
+
+-------------------------------------------------------------------*/
+
+body {
+    background: #222;
+    color: #e6e6e6;
+}
+
+#preloader {
+    background: #222;
+}
+
+.heading p {
+    color: #e6e6e6;
+}
+
+.heading.heading-boxed h1 {
+    -moz-box-shadow: 0 0 0 5px #222 inset;
+    -webkit-box-shadow: 0 0 0 5px #222 inset;
+    box-shadow: 0 0 0 5px #222 inset;
+}
+
+input,select,textarea {
+    background: #333;
+    border: 1px solid #656565;
+    color: #e6e6e6;
+}
+
+.icon-bordered {
+    border: 1px solid #e6e6e6;
+    color: #e6e6e6;
+}
+
+.solid-icon {
+    border: 3px solid #222;
+}
+
+.pointing-icon,.pointing-icon:after {
+    background: #222;
+    border: 1px solid #e6e6e6;
+    color: #fff;
+}
+
+.pointing-icon:after {
+    border: 0;
+    box-shadow: -1px 1px 0 0 #e6e6e6;
+}
+
+.middle-line {
+    background: #e6e6e6;
+}
+
+.about-tri-sec .icon-bordered {
+    background: #222;
+}
+
+.about-tri-sec .line-left,.about-tri-sec .line-right {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.bg-gray {
+    background: #151515;
+}
+
+.percent-bar {
+    border-right: 1px solid #4a4a4a;
+}
+
+.team h3 span {
+    color: #979797;
+}
+
+.team-social li a {
+    border: 1px solid #424242;
+    background: #151515;
+}
+
+.team-social li a i {
+    background: #424242;
+}
+
+.table-boxed {
+    border: 1px solid #404040;
+}
+
+.list.solid li {
+    border-bottom: 1px solid #404040;
+    color: #e6e6e6;
+}
+
+.table-boxed-heading .table-price {
+    background: #222;
+    box-shadow: 0 0 0 6px #222;
+}
+
+.table-boxed-heading .table-price .bg-white {
+    background: #222;
+}
+
+.user-experience {
+    background: url(../images/shadow-big-dark.png) no-repeat scroll center top;
+}
+
+.blog-content h3,.blog-content h3 a,.blog-meta li a,.btn-bordered.dark,.heading.dark h1,.heading.dark p,.list li,.panel-default>.panel-heading,.table-boxed-heading .table-price {
+    color: #e6e6e6;
+}
+
+.cbp-l-filters-button .cbp-filter-item {
+    background-color: #373737;
+    color: #e6e6e6;
+}
+
+.thumb-info {
+    border-right: 1px solid #29262a;
+}
+
+.cbp-l-loadMore-button-link {
+    border: 2px solid #7e7b7b;
+}
+
+.blog-meta li i {
+    color: #fff;
+}
+
+.our-best-sellers .heading p,.our-best-sellers2 .heading p,.services.parallax-img .heading p,.services.parallax-img .panel-body,.services.parallax-img .panel-heading,.services.parallax-img h2 {
+    color: #404040;
+}
+
+.underline:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.blog-thumb .fa-caret-down,.blog-thumb .fa-caret-up {
+    color: #222;
+}
+
+.popup-content {
+    background: #222;
+}
+
+.share-post {
+    background: rgba(0,0,0,.79);
+}
+
+.pointer-tri-sec h3 a,.share-post p,.tri-sec h3 a {
+    color: #e6e6e6;
+}
+
+.blog-timeline-icon i {
+    border: 4px solid #222;
+}
+
+footer {
+    background: #111;
+}
+
+.blog-post.two {
+    border: 1px solid #404040;
+    box-shadow: 0 4px 0 0 #404040;
+}
+
+.blog-post.two .blog-meta {
+    border-bottom: 1px solid #404040;
+    border-top: 1px solid #404040;
+}
+
+.blog-post.two .blog-meta li {
+    border-left: 1px solid #404040;
+}
+
+.blog-post.two .blog-meta li:first-child {
+    border-left: 0;
+}
+
+.footer-social-widget li a {
+    color: #fff;
+}
+
+.box {
+    background: #222;
+}
+
+.team2 {
+    background: #2E2D2D;
+}
+
+.team-contact li a,.team2 h3 span {
+    color: #e6e6e6;
+}
+
+.resp-vtabs .resp-tabs-container {
+    background-color: #222;
+}
+
+.filter-boxed.cbp-l-filters-button .cbp-filter-item {
+    background: #373737;
+    color: #fff!important;
+}
+
+.portfolio-boxed li {
+    border: 1px solid #424242;
+}
+
+.tri-sec-shadow i.back-icon {
+    color: #424242!important;
+}
+
+.tri-sec-shadow h3 span {
+    color: #e6e6e6;
+}
+
+.counter2-bg {
+    background: #000;
+}
+
+.team-nav .cbp-filter-item {
+    color: #fff;
+}
+
+.team-description h3 span {
+    color: #e6e6e6;
+}
+
+.services-inner-content h2,.services-inner-content p {
+    color: #404040;
+}
+
+.our-best-sellers.no-bg .best-seller-content p,.our-best-sellers.no-bg .heading p {
+    color: #e6e6e6;
+}
+
+.btn-view {
+    border: 2px solid #555;
+    color: #555;
+}
+
+.classic-stickey .classic-nav.navbar-default.dark .navbar-nav>li>a {
+    color: #fff;
+}
+
+.cbp-popup-singlePageInline .cbp-l-project-desc-text,.cbp-popup-singlePageInline .cbp-l-project-desc-title,.cbp-popup-singlePageInline .cbp-l-project-details-list li,.cbp-popup-singlePageInline .cbp-l-project-details-title {
+    color: #e6e6e6;
+}
+
+.cbp-item-wrapper .team-social.white li a {
+    background: #fff;
+}
+
+.team-image {
+    background: url(../images/team-dark.jpg) no-repeat scroll center bottom;
+}
+.case-studies-section {background:#212121;}
+.case-studies-section p, .case-studies-section h1 span {color: #fff;}
+.maps .resp-tabs-list li {border-bottom: 1px solid #656565;border-left: 1px solid #656565;}
+.maps .resp-tabs-list li:first-child {border-bottom: 1px solid #656565;}
+.maps .resp-tabs-list li strong {color: #fff;}
+.maps .resp-tabs-list li span, .maps .resp-tabs-list li a {color: #fff;}
+.maps .resp-tabs-list li i.fa-caret-down {color: #656565 !important;bottom: -33px;}
+
+
+.social-long-boxed li a {color: #fff;}
+.always-better h2 {color: #fff;}
+.our-goal h2 {color: #fff;}
+.feature-list.big i {color: #fff;}
+.portfolio h2, .portfolio a p{ color:#fff;}
+.social-long-boxed li a:hover{ border:1px solid #fff !important;}
+.social-long-boxed li a:hover i{ border-right: 1px solid #fff !important;}

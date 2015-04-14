@@ -1,0 +1,442 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Pink color Stylesheet]
+
+Project:	FAJAR
+Version:	1.0
+Last change:	Initial RELEASED 
+Primary use:	Color Scheme
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+# [Color codes]
+
+# color			#ec3233
+# Dark color 
+  for borders	#C91819
+# Light color 
+  for borders	#E78181
+
+-------------------------------------------------------------------*/
+
+.underline,a {
+    color: #ec3233;
+}
+
+.btn-bordered.dark.active:focus,.btn-bordered.dark:focus,.btn-bordered.dark:hover {
+    border: 1px solid #ec3233;
+    color: #ec3233;
+}
+
+.btn-default {
+    background-color: #ec3233;
+}
+
+.btn-default.active,.btn-default:active,.btn-default:focus,.btn-default:hover,.open .dropdown-toggle.btn-default {
+    background-color: #C91819;
+}
+
+.btn-bordered.active:focus,.btn-bordered:focus,.btn-bordered:hover {
+    border-color: #ec3233;
+}
+
+h1 span,h2 span,h3 span,h4 span,h5 span,h6 span {
+    color: #ec3233;
+}
+
+.back-to-top {
+    background: #ec3233;
+}
+
+#preloader div {
+    color: #ee3b24;
+}
+
+.back-to-top:focus,.back-to-top:hover {
+    background: #C91819;
+}
+
+.bg-default,.heading.iconic i {
+    background: #ec3233;
+}
+
+.heading.heading-boxed h1 {
+    background: #ec3233;
+    border-color: #ec3233;
+}
+
+.color-switcher h5,.picker_close {
+    background: #ec3233;
+}
+
+.cl-effect-5 a:hover span,.cl-effect-5 li.active a span {
+    color: #ec3233;
+}
+
+.rss {
+    background: #ec3233;
+}
+
+.heading h1 {
+    color: #ec3233;
+    border-bottom: 1px solid #ec3233;
+}
+
+.about-tri-sec h3,.about-tri-sec h3 a,.heading p span,.navbar-default.dark .cl-effect-5 a:hover span,.navbar-default.dark .cl-effect-5 li.active a span {
+    color: #ec3233;
+}
+
+.icon-bordered {
+    border: 1px solid #ec3233;
+    color: #ec3233;
+}
+
+.about-tri-sec .line-left,.about-tri-sec .line-right {
+    border-bottom: 1px solid #ec3233;
+}
+
+.about-tri-sec:hover .icon-bordered,.icon-bordered:hover {
+    background: #ec3233!important;
+}
+
+.middle-line {
+    background: #ec3233;
+}
+
+.resp-tabs-list li.resp-tab-active,.resp-tabs-list li:hover {
+    color: #ec3233;
+}
+
+.progress-bar {
+    background-color: #ec3233;
+}
+
+.arrow-down-bottom,.arrow-down-top {
+    border-top: 7px solid #C91819;
+}
+
+.numbering .overlay-fajar {
+    background: #ec3233;
+}
+
+.team h3,.team h3 a {
+    color: #ec3233;
+}
+
+.table-boxed.highlight .table-boxed-heading {
+    background: #ec3233;
+}
+
+.table-boxed.highlight .table-boxed-heading .table-price {
+    color: #ec3233;
+    border: 1px solid #ec3233;
+}
+
+.table-boxed.highlight .btn-default {
+    border: 1px solid #C91819;
+}
+
+.panel-title i {
+    color: #ec3233;
+}
+
+.icon-big {
+    border: 4px solid #ec3233;
+}
+
+.icon-big i {
+    background: #ec3233;
+}
+
+.icon-small {
+    border: 2px solid #ec3233;
+}
+
+.icon-small i {
+    background: #ec3233;
+}
+
+.testimonial .client-detail p,.testimonial i {
+    color: #ec3233;
+}
+
+.cbp-l-filters-button .cbp-filter-item-active {
+    background: #ec3233!important;
+}
+
+.cbp-l-filters-button .cbp-filter-counter {
+    background-color: #ec3233;
+}
+
+.cbp-l-filters-button .cbp-filter-counter:before {
+    border-top: 4px solid #ec3233;
+}
+
+.cbp-l-caption-buttonLeft,.cbp-l-caption-buttonRight {
+    background-color: #ec3233;
+}
+
+.cbp-l-filters-button .cbp-filter-item:hover {
+    background: #ec3233;
+}
+
+.cbp-l-caption-buttonLeft:hover,.cbp-l-caption-buttonRight:hover {
+    background-color: #C91819;
+}
+
+.best-seller-content h3 a:hover,.best-seller-thumb .rating-stars li a {
+    color: #ec3233;
+}
+
+.btn-shop {
+    color: #ec3233;
+    border-bottom: 1px solid #ec3233;
+    background-image: linear-gradient(to top,#ec3233 50%,transparent 50%);
+}
+
+.blog-content h3 a:hover,.blog-meta li a:hover,.blog-meta li a:hover i {
+    color: #ec3233;
+}
+
+.owl-buttons .owl-prev {
+    background: url(../images/team-left-arrow.png) no-repeat;
+}
+
+.owl-buttons .owl-next {
+    background: url(../images/team-right-arrow.png) no-repeat;
+}
+
+.submit-btn {
+    background: url(../images/submit-img-pink.png) no-repeat scroll;
+}
+
+.contact-info-widget p a:hover {
+    color: #ec3233;
+}
+
+.back-to-map-overlay {
+    background: #ec3233;
+}
+
+.banner-text span {
+    color: #ec3233;
+}
+
+.classic-stickey .classic-nav.navbar-default .navbar-nav>li.active>a,.classic-stickey .classic-nav.navbar-default .navbar-nav>li>a:before,.classic-stickey .classic-nav.navbar-default .navbar-nav>li>a:hover {
+    color: #ec3233!important;
+}
+
+.tri-sec h3 a:hover {
+    color: #ec3233;
+}
+
+.about-classic-section .tri-sec:hover .solid-icon {
+    background: #ec3233;
+    box-shadow: 0 0 0 3px #ec3233;
+}
+
+.about-classic-section .tri-sec:hover h3,.about-classic-section .tri-sec:hover h3 a,.tri-sec:hover h3,.tri-sec:hover h3 a,.tri-sec:hover i {
+    color: #ec3233;
+}
+
+.fancybox-type-ajax .fancybox-skin,.team-small:hover p {
+    background: #ec3233;
+}
+
+.team-social.white li a i {
+    color: #ec3233;
+}
+
+.pricing-table2.highlight .table-heading,.pricing-table2.highlight .table-heading .price {
+    background: #ec3233;
+}
+
+.btn-embose-default {
+    background: #ec3233;
+    border-bottom: 4px solid #C91819;
+}
+
+.pointer-tri-sec h3 a:hover {
+    color: #ec3233;
+}
+
+.pointing-icon:after {
+    box-shadow: -1px 1px 0 0 #ec3233;
+}
+
+.pointing-icon {
+    border: 1px solid #ec3233;
+}
+
+.pointing-icon:hover,.pointing-icon:hover:after {
+    background: #ec3233;
+}
+
+.pointing-icon {
+    color: #ec3233;
+}
+
+.pointer-tri-sec:hover .pointing-icon,.pointer-tri-sec:hover .pointing-icon:after {
+    background: #ec3233;
+}
+
+.pointer-tri-sec:hover h3,.pointer-tri-sec:hover h3 a {
+    color: #ec3233;
+}
+
+.carousel-indicators.dots li.active {
+    background: #ec3233;
+}
+
+.btn-shop-inverse {
+    border-bottom: 1px solid #ec3233;
+    background-image: linear-gradient(to top,#ec3233 50%,transparent 50%);
+}
+
+.btn-shop-inverse.active:focus,.btn-shop-inverse:focus,.btn-shop-inverse:hover {
+    color: #ec3233;
+}
+
+.submit-btn2 {
+    background-color: #ec3233;
+}
+
+.navbar-default.navbar-top .navbar-brand {
+    background: #ec3233;
+}
+
+.cl-effect-2 a span::before,.cl-effect-2 li.active a span {
+    color: #ec3233;
+}
+
+.carousel-indicators.bullets li.active,.team-des-btn.active,.team-des-btn:hover {
+    background: #ec3233;
+}
+
+.team-member-description .team-member-desc-inner {
+    border: 1px solid #ec3233;
+}
+
+.team-member-desc-bg {
+    background: #ec3233;
+}
+
+.social2 li a:hover {
+    color: #ec3233;
+}
+
+.portfolio-masonary .portfolio-item .portfolio-item-content .overlay-fajar {
+    background: #ec3233;
+}
+
+.popup-portfolio-inner .cross {
+    background: url(../images/close-social-pink.jpg) no-repeat scroll -15px -81px;
+}
+
+.footer-social-widget li a:hover {
+    color: #ec3233;
+    border: 1px solid #ec3233;
+}
+
+.box {
+    border: 2px solid #ec3233;
+}
+
+.box:hover {
+    background: #ec3233;
+}
+
+.box i,.team-contact li a:hover,.team2 h3,.team2 h3 a {
+    color: #ec3233;
+}
+
+.resp-vtabs ul.resp-tabs-list {
+    border-right: 7px solid #ec3233;
+}
+
+.resp-vtabs .resp-tabs-list li:hover,.resp-vtabs li.resp-tab-active {
+    background-color: #ec3233;
+}
+
+.feature-list i,.table.highlight h3 {
+    color: #ec3233;
+}
+
+.table.highlight .table-price {
+    box-shadow: 0 0 0 6px #ec3233;
+    -moz-box-shadow: 0 0 0 6px #ec3233;
+    -webkit-box-shadow: 0 0 0 6px #ec3233;
+    border: 1px solid #E78181;
+    background: #ec3233;
+}
+
+.table.highlight .list li {
+    border-color: #ec3233;
+    color: #ec3233;
+}
+
+.table.highlight .btn-default {
+    border: 1px solid #C91819;
+}
+
+.filter-boxed.cbp-l-filters-button .cbp-filter-item:hover {
+    color: #ec3233;
+    border: 1px solid #ec3233;
+}
+
+.filter-boxed.cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
+    border: 1px solid #ec3233;
+    color: #ec3233;
+}
+
+.submit-btn-dark {
+    background: url(../images/submit-img-pink.png) no-repeat 0 bottom;
+}
+
+.cbp-l-project-desc-title span,.cbp-l-project-details-title span,.cbp-popup-singlePage .cbp-l-project-title,.cbp-popup-singlePageInline .cbp-l-project-title {
+    color: #ec3233;
+}
+
+.heading.dark h1 {
+    border-color: #ec3233;
+}
+
+.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover {
+    background-color: #ec3233;
+    border-color: #C91819;
+}
+
+h2.resp-tab-active {
+    background: #ec3233!important;
+    border-color: #C91819;
+}
+
+h2.resp-accordion:first-child.resp-tab-active {
+    border-top: 1px solid #ec3233!important;
+}
+
+.share-sec-close {
+    background-image: url(../images/close-social-pink.jpg);
+}
+
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	background-color: #ec3233;
+	border-color: #ec3233
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #ec3233;
+	border-color: #ec3233
+}
+
+.sidebar-widget.categories ul li a:hover, .sidebar-widget.archives ul li a:hover{ color:#ec3233;}
+.sidebar-widget.tags ul li a:hover{ color:#ec3233; border:1px solid #ec3233;}
+.navbar-default li.dropdown ul li a:hover{color:#ec3233;}
+
+.portfolio h2 span{ color:#ec3233}
+.maps .resp-tabs-list li i{color:#ec3233}
+.case-studies-section h1{ color:#ec3233}
+.maps .resp-accordion i{ color:#ec3233}
+.case-studies-section-inner.small i{color:#ec3233}
+.view-btn:hover{ color:#ec3233; border-color:#ec3233;}

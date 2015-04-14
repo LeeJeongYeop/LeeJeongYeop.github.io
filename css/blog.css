@@ -1,0 +1,423 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Blog Stylesheet]
+
+Project:	FAJAR
+Version:	1.0
+Last change:	Initial RELEASED 
+Primary use:	Color Scheme
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+
+
+
+
+
+/*====================== BLOG =======================*/
+
+.blog-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-thumb img {
+    max-width: none;
+    width: 100%;
+}
+
+.blog-thumb .fa-caret-up {
+    bottom: 0;
+    color: #FFF;
+    font-size: 63px;
+    left: 50%;
+    line-height: 19px;
+    margin-left: -11px;
+    position: absolute;
+}
+
+.blog-thumb .fa-caret-down {
+    top: 0;
+    color: #FFF;
+    font-size: 63px;
+    left: 50%;
+    line-height: 16px;
+    margin-left: -11px;
+    position: absolute;
+}
+
+.blog-content {
+    padding: 30px 27px;
+}
+
+.blog-content h3,.blog-content h3 a {
+    color: #404040;
+    padding-bottom: 15px;
+}
+
+.blog-content p {
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.blog-meta {
+    border-bottom: 1px solid #c6c6c6;
+    border-top: 1px solid #c6c6c6;
+}
+
+.blog-meta li {
+    float: left;
+    border-left: 1px solid #c6c6c6;
+    margin: 8px 0;
+    padding: 0 11px;
+    font-family: SourceSansProLight;
+    font-size: 16px;
+    line-height: 33px;
+}
+
+.blog-meta li:first-child {
+    padding-left: 0;
+    border-left: 0;
+}
+
+.blog-meta li:last-child {
+    padding-right: 0;
+}
+
+.blog-meta li a {
+    color: #404040;
+}
+
+.blog-meta li i {
+    float: left;
+    color: #7F7F7F;
+    font-size: 24px;
+    line-height: 31px;
+    padding: 0 10px 0 0;
+}
+
+.blog-meta li i.icon-calendar {
+    font-size: 18px;
+    position: relative;
+    top: -2px;
+}
+
+.blog-meta li a:hover,.blog-meta li a:hover i {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+
+/*======================= BLOG STYLE TWO [bordered] (Please include style one with) ======================*/
+
+
+
+.blog-post.two {
+    border: 1px solid #d1d1d1;
+    margin: 0 25px 40px;
+    box-shadow: 0 4px 0 0 #D1D1D1;
+}
+
+.blog-post.two .blog-thumb {
+    margin: -1px;
+}
+
+
+
+/*=================================== Blog Timeline ================================*/
+
+
+
+.blog-timeline {
+    position: relative;
+    padding: 0 0 40px;
+}
+
+.blog-timeline .line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    border-right: 1px solid #424242;
+    margin-left: -.5px;
+    height: 100%;
+}
+
+.blog-post-timeline {
+    padding: 30px 0 34px;
+}
+
+.blog-post-timeline .blog-content h3 {
+    padding-bottom: 7px;
+}
+
+.blog-timeline-icon {
+    float: left;
+    width: 8%;
+    text-align: center;
+    position: relative;
+}
+
+.blog-timeline-icon i {
+    width: 48px;
+    height: 48px;
+    background: #424242;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 100%;
+    line-height: 40px;
+    border: 4px solid #fff;
+}
+
+
+
+
+
+/*==== Blog Timeline Right Thumbnail ====*/
+
+
+
+
+
+
+.blog-post-timeline.right-thumb .blog-thumb {
+    float: right;
+    width: 46%;
+}
+
+.blog-post-timeline.right-thumb .blog-content {
+    float: left;
+    padding: 0;
+    width: 46%;
+    text-align: right;
+}
+
+.blog-post-timeline.right-thumb .blog-content .blog-meta {
+    float: right;
+    border: 0;
+    margin: 0;
+}
+
+.blog-post-timeline.right-thumb .blog-content p {
+    text-align: right;
+}
+
+
+
+
+/*============================ Blog Timeline left Thumbnail ==============================*/
+
+
+
+
+.blog-post-timeline.left-thumb .blog-thumb {
+    float: left;
+    width: 46%;
+}
+
+.blog-post-timeline.left-thumb .blog-content {
+    float: right;
+    padding: 0;
+    width: 46%;
+    text-align: left;
+}
+
+.blog-post-timeline.left-thumb .blog-content .blog-meta {
+    float: none;
+    border: 0;
+    margin: 0;
+}
+
+.blog-post-timeline.left-thumb .blog-content p {
+    text-align: left;
+}
+
+
+
+
+/*============================ EXTRA CLASS FOR BLOG ONE ==============================*/
+
+
+
+
+.blog1{ 
+	padding: 0 0 60px 0;
+}
+.blog1 .blog-thumb{ 
+	float: left;
+    max-width: 390px;
+    width: 100%;
+}
+.blog1 .blog-meta {
+    display: inline-block;
+    width: 100%;
+}
+.blog1 .blog-content{ 
+	padding:0 0 0 418px;
+}
+.blog1 .blog-content p{ 
+	padding-bottom:17px;
+}
+
+
+
+
+/*============================ EXTRA CLASS FOR BLOG TWO ==============================*/
+
+
+.blog2{ text-align:center; padding:60px 0;}
+.blog2 .blog-thumb img{ width:auto;}
+.blog2 .blog-meta{ border:0;}
+.blog2 .blog-meta li{ float:none; display:inline-block;}
+.blog2 .blog-content{ padding:30px 0 0;}
+.blog2 .blog-content p{ text-align:center; padding:0 0 30px 0;}
+
+
+
+
+/*============================ EXTRA CLASS FOR BLOG THREE ==============================*/
+
+
+.blog3{ padding:0 0 50px 0;}
+.blog3 .blog-meta{ border:0;}
+.blog3 .blog-content{ padding:30px 0 0;}
+.blog3 .blog-content p{ padding:0 0 30px 0;}
+
+
+
+
+
+/*============================ SIDEBAR ==============================*/
+
+
+.sidebar-widget{ padding:0 0 38px 0;}
+
+
+
+/* SEARCH */
+.sidebar-widget.search{}
+.sidebar-widget.search form{ position:relative;}
+.sidebar-widget.search input[type="text"]{ padding: 15px 4%;width: 100%;}
+.sidebar-widget.search input[type="submit"]{ background:url(../images/binoculos.png) no-repeat; width:22px; height:21px; position:absolute; right:10px; top:18px; border:0;}
+
+
+/* CATEGORIES */
+.sidebar-widget.categories{}
+.sidebar-widget.categories ul li{ font-family: SourceSansProLight;line-height: 43px;}
+.sidebar-widget.categories ul li a{ color:#404040;}
+
+
+/* RECENT POSTS */
+
+.sidebar-widget.recent-posts .item img{ width:100%;}
+.sidebar-widget.recent-posts .item{ position:relative;}
+.sidebar-widget.recent-posts .item p{ position:absolute; left:0; bottom:0; padding:15px 5%; width:100%;font-family: Oswald,sans-serif; background:rgba(0, 0, 0, 0.69); color:#fff; margin:0; text-align:center;}
+
+
+.blog-buttons .owl-buttons{ display:block;}
+.blog-buttons .owl-buttons .owl-prev, .blog-buttons  .owl-buttons .owl-next{ width:60px; margin-top:-23px;}
+.blog-buttons .owl-buttons .owl-prev{ left:0; background:url(../images/detail-arrows.jpg); background-position: -5px !important}
+.blog-buttons .owl-buttons .owl-next{ right:0;background:url(../images/detail-arrows.jpg); background-position: -74px -5px !important}
+
+
+
+/* TAGS */
+.sidebar-widget.tags{}
+.sidebar-widget.tags ul li{ font-family: SourceSansProLight; float:left; margin:0 5px 5px 0;}
+.sidebar-widget.tags ul li a{ color:#404040; border:1px solid #cccccc; display:block; font-size:18px;padding: 12px 26px 9px;}
+
+
+/* ARCHIVES */
+.sidebar-widget.archives{}
+.sidebar-widget.archives ul li{ font-family: SourceSansProLight;line-height: 43px;}
+.sidebar-widget.archives ul li a{ color:#404040;}
+
+
+
+
+/* BLOG COMMENTS */
+/*Blog comments*/
+.commentlist {
+	list-style:none;
+	padding:15px 0 0;
+}
+.commentlist li {
+	line-height:1.428571429
+}
+.comment {
+	padding:15px;
+	margin-top:20px;
+	border:1px solid #ececec;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow:0 3px 0 #ececec;
+	-webkit-box-shadow:0 3px 0 #ececec;
+	-moz-box-shadow:0 3px 0 #ececec
+}
+.comment-wrapper {
+	position:relative;
+}
+.comment-avartar {
+	float:left;
+}
+.comment-avartar img{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+}
+.comment-content-wrapper {
+	padding-left:96px;
+}
+.comment-reply {
+	position:absolute;
+	right:0;
+	top:0;
+}
+.comment-reply-link {
+	background-color: #4b4b4b;
+	box-shadow: 0 3px 0 #161616;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'SourceSansProBold';
+	font-size: 14px;
+	line-height: 1.42857;
+	margin-bottom: 0;
+	padding:9px 15px 3px;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.comment-reply-link i {
+	padding-right:10px;
+}
+.comment-reply-link:hover, .comment-reply-link:focus {
+	color:#fff;
+	background:#434242
+}
+.comment-author {
+	font-size:22px;
+	color:#373737;
+	display:block;
+	line-height:22px
+}
+.comment-date {
+	font-size:16px;
+	color:#727272;font-family: SourceSansProLight;
+}
+.comment-message {
+	font-size:18px;
+	color:#616161;
+	padding-top:12px;font-family: SourceSansProLight;
+}
+
+.comment-respond input[type="submit"]{ width:auto; background:none;}

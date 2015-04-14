@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Comming Soon</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		
+
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+		
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="overlay"></div>
+			
+			<header class="header">
+				<a href="#." class="logo"><img src="images/logo.png" alt="" title=""></a>
+			</header>
+			
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+				<img src="images/comming-soon-text.png" alt="">
+				<!-- CLOCK -->
+				<div id="clock">
+				  <div class="half">
+				  <p>
+					<span id="daysLeft"></span>
+					<b>Days</b>
+				  </p>
+				  <p>
+					<span id="hours"></span>
+					<b>Hours</b>
+				  </p>
+				  </div>
+				  <div class="half">
+				  <p>
+					<span id="minutes"></span>
+					<b>Minutes</b>
+				  </p>
+				  <p>
+					<span id="seconds"></span>
+					<b>Seconds</b>
+				  </p>
+				</div>
+				</div>
+				</section>
+
+				<section>
+					<h1>about company</h1>
+					<p>it is a long established fact that a reader will be distracted by the readable content Graphich design of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal Graphi designing. it is a long established fact that a reader will be distracted by the readable content Graphich design of a page when looking at its layout.</p>
+				</section>
+
+				<section>
+					<h1>newsletter</h1>
+					<p>Sign up now to our newsletter and you'll be one of the first to know the new site:</p>
+					<div class="newsletter">
+						<div class="success" id="message-news" style="display:none;">Thank you! You have successfully subscribed.</div>
+						<form name="newsletter_form" id="newsletter_form" method="post" action="process.php" onSubmit="return false">
+							<input type="text" name="news_email_address" id="news_email_address" placeholder="Enter your email address" onKeyPress="removeChecks();">
+							<input type="submit" value="" onClick="validateNewsletter();">
+						</form>
+					</div>
+				</section>
+
+				<section>
+					<h1>contact us</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet enim id nunc</p>
+					<div id="message-contact" class="success" style="display:none;">Thank you! we'll contact you shortly.</div>
+					<form class="contact-us" name="contact_form" id="contact_form" action="submit.php" method="post" onSubmit="return false;">
+						<input type="text" name="name" id="name" placeholder="Your Name" onKeyPress="removeChecks();">
+						<input type="text" name="email" id="email" placeholder="Email Address" onKeyPress="removeChecks();">
+						<textarea placeholder="Message" name="msg" id="msg"></textarea>
+						<input type="submit" value="" onClick="validateContact();">
+					<div class="clr"></div>
+					</form>
+				</section>
+
+			</div>
+			
+			<footer class="footer">
+				<ul class="social">
+					<li><a href="#."><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#."><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#."><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#."><i class="fa fa-youtube"></i></a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2014 fajeer. All rights reserved.</p>
+			</footer>
+			
+		</div>
+
+		
+		<script src="js/reveal.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.countdown.js"></script>
+		<script src="js/forms-validation.js"></script>
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: false,
+				history: true,
+				center: true,
+			});
+			
+			// Javascript for counters
+			$(function() {
+			"use strict";
+			  var currentDate = new Date();
+			  $('div#clock').countdown(20 * 24 * 60 * 60 * 1000 + currentDate.valueOf(), function(event) {
+				var $this;
+				
+				$this = $(this);
+				switch(event.type) {
+				  case "seconds":
+				  case "minutes":
+				  case "hours":
+				  case "days":
+				  case "weeks":
+				  case "daysLeft":
+					$this.find('span#'+event.type).html(event.value);
+					break;
+				  case "finished":
+					$this.fadeTo('slow', .5);
+					break;
+				}
+			  });
+			}(jQuery));
+			
+			
+		</script>
+
+	</body>
+</html>

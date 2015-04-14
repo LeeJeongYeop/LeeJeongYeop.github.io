@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Blog Stylesheet]
+
+Project:	FAJAR
+Version:	1.0
+Last change:	Initial RELEASED 
+Primary use:	PROJECT DETAIL
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+
+
+/*=================================== PROJECT DETAIL BANNER ===============================*/
+
+.project-detail-banner{ position:relative;}
+.project-detail-banner .project-detail-logo{ margin-top:120px;}
+.project-detail-banner h1{ color:#fff; font-size:111px;font-weight: 700; padding:30px 0 20px;}
+.project-detail-banner p{ color:#fff}
+.project-detail-banner i{ color:#fff; font-size:100px;}
+.go-down{ background:url(../images/go-down.png) no-repeat; display:block; width:78px; height:39px; position:absolute; left:50%; bottom:0; margin-left:-39px;}
+.our-goal{ max-width:830px; width:100%; margin:0 auto;}
+.our-goal h2{ font-size:52px; color:#222222; font-weight:700;}
+.browser{ margin:50px auto 70px;}
+.view-btn{ color:#222222; border:1px solid #222222; font-size:23px; text-transform:uppercase; font-weight:300; display:inline-block;padding: 20px 60px; border-radius:5px;}
+
+
+.project-detail-slider img{ max-width:none; width:100%;}
+.project-detail-slider .owl-controls { top:auto; bottom:5px;}
+.project-detail-slider.box-buttons .owl-buttons .owl-prev{ left:10px; top:auto; bottom:180px;}
+.project-detail-slider.box-buttons .owl-buttons .owl-next{ right:10px; top:auto; bottom:180px;}
+
+
+
+.about-the-client{}
+.about-the-client h2{ font-weight:700; color:#fff; font-size:52px;}
+.about-the-client p{ color:#fff; max-width:767px; margin:0 auto;}
+
+
+
+.always-better{}
+.always-better h2{ font-weight:700; color:#222222; font-size:52px;}
+.always-better p{ max-width:767px; margin:0 auto;}
+
+
+
+
+
+
+
+
+
+.more-projects{ margin:40px 0 0;}
+.more-projects .owl-item{ background:#000;}
+.more-projects .owl-item img{ opacity:.5; max-width:none; width:100%;}
+.more-project{ position:relative;}
+.more-project .more-project-content{ position:absolute; left:0; top:42%; width:100%; height:100%;}
+.more-project .more-project-content p{text-transform:uppercase; text-align:center; font-size:200%; color:#fff;font-family: Oswald,sans-serif;-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;}
+.more-project .more-project-content p span{ font-size:24px; display:block; margin:8px 0 0;}
+.more-project .more-project-content a{ position:absolute; left:50%; margin-left:-90px; top:-1000px;;border:1px solid #fff; padding: 13px 30px;font-size:22px;color:#fff;text-transform:uppercase;-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;}
+.more-project:hover .more-project-content a{ display:inline-block;top:0;-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;}
+.more-project:hover .more-project-content p{ margin-top:1000px;-webkit-transition: all 900ms ease;
+-moz-transition: all 900ms ease;
+-ms-transition: all 900ms ease;
+-o-transition: all 900ms ease;
+transition: all 900ms ease;}
+
+
+
+/* NAVIGATION */
+
+.proj-detail-nav{ position:absolute; right:0; top:0;}
+.proj-detail-nav li a{ width:78px; height:77px; display:block; background:url(../images/proj-detail-nav.jpg) no-repeat;}
+.proj-detail-nav li a.next-btn{ background-position:0 -77px;}
+.proj-detail-nav li a.prev-btn{ background-position:0 bottom;}
+.proj-detail-nav li a:hover{ opacity:.9}

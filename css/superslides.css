@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Home Slides Stylesheet]
+
+Project:	FAJAR
+Version:	1.0
+Last change:	Initial RELEASED 
+Primary use:	Home Slides
+-------------------------------------------------------------------*/
+
+
+#home-slides {
+    position: relative;
+}
+
+#home-slides .slides-container {
+    display: none;
+}
+
+#home-slides .scrollable {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+}
+
+#home-slides .scrollable:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.slides-navigation {
+    left: 50%;
+    margin: 0 auto 0 -120px;
+    max-width: 240px;
+    position: absolute;
+    bottom: 38%;
+    width: 100%;
+    z-index: 3;
+}
+
+.slides-navigation a {
+    position: absolute;
+    display: block;
+    outline: 0;
+}
+
+.slides-navigation a.prev {
+    left: 20px;
+    background: url(../images/home-slide-left.png) no-repeat;
+    width: 75px;
+    height: 57px;
+}
+
+.slides-navigation a.next {
+    right: 18px;
+    background: url(../images/home-slide-right.png) no-repeat;
+    width: 75px;
+    height: 57px;
+}
+
+.slides-pagination {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.slides-pagination a {
+    border: 2px solid #222;
+    border-radius: 15px;
+    width: 10px;
+    height: 10px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=);
+    margin: 2px;
+    overflow: hidden;
+    text-indent: -100%;
+}
+
+.slides-pagination a.current {
+    background: #222;
+}
+
+.slides-container {
+    text-align: center;
+}
+
+.slides-container h1 {
+    color: #fff;
+    padding: 12% 0 0;
+    margin-bottom: 10px;
+}
+
+.slides-container p {
+    color: #FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Oswald,sans-serif;
+}
+
+.slides-container p i {
+    font-size: 7px;
+    margin: 0 3px;
+    position: relative;
+    top: -4px;
+}
+
+.slides-container .btn-bordered {
+    border: 2px solid #fff;
+    font-size: 26px;
+    background: rgba(255,255,255,.2);
+    font-family: Oswald,sans-serif;
+    padding: 9px 60px 12px;
+}
+
+.slides-container .btn-bordered:hover {
+    border: 2px solid #fff;
+    background: rgba(255,255,255,.4);
+}

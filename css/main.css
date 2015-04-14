@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[General Stylesheet for Portfolio]
+
+Project:	FAJAR
+Version:	1.0
+Last change:	Initial RELEASED 
+Primary use:	Portfolio
+-------------------------------------------------------------------*/
+
+
+
+/*  ---------------------------------------------------------------
+    general style
+    --------------------------------------------------------------- */
+
+/* apply a natural box layout model to all elements  - http://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
+*,:after,:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus {
+    outline: 0;
+}
+
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+body,html {
+    width: 100%;
+    min-height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+}

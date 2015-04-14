@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Fullpage Stylesheet]
+
+Project:	FAJAR
+Version:	1.0
+Last change:	Initial RELEASED 
+Primary use:	Fullpage
+-------------------------------------------------------------------*/
+
+#superContainer {
+    height: 100%;
+    position: relative;
+    -ms-touch-action: none;
+}
+
+.section {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.section.table,.slide.table {
+    display: table;
+    width: 100%;
+}
+
+.tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+.scrollable {
+    overflow: scroll;
+}
+
+.easing {
+    -webkit-transition: all .7s ease-out;
+    -moz-transition: all .7s ease-out;
+    -o-transition: all .7s ease-out;
+    transition: all .7s ease-out;
+}
+
+#fullPage-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+}
+
+#fullPage-nav.right {
+    right: 17px;
+}
+
+#fullPage-nav.left {
+    left: 17px;
+}
+
+.fullPage-tooltip {
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    font-family: arial,helvetica,sans-serif;
+    top: -2px;
+}
+
+.fullPage-tooltip.right {
+    right: 20px;
+}
+
+.fullPage-tooltip.left {
+    left: 20px;
+}
