@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,700,300);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+html { font-family: "Open Sans", Helvetica, Arial, "Nanum Gothic", sans-serif !important; }
+
+code, kbd, pre, samp { font-family: Menlo, Monaco, "Courier New", "Nanum Gothic Coding", monospace !important; }
+
+body { font-family: "Open Sans", Helvetica, Arial, "Nanum Gothic", sans-serif !important; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Open Sans", Helvetica, Arial, "Nanum Gothic", sans-serif !important; }
+
+a.link-unstyled, a.link-unstyled:hover, a.link-unstyled:visited { color: inherit; text-decoration: inherit; }
+
+a.link-hover-bg:hover { display: block; background-color: #eee; }
+
+.section { border-bottom: 1px solid #eee; }
+
+#sidebar { position: static; padding-top: 40px; }
+#sidebar .profile { text-align: center; }
+
+@media screen and (min-width: 992px) { #sidebar { padding-top: 80px; width: 213px; position: fixed; /* Undo the static from mobile first approach */ }
+  #sidebar .profile { text-align: left; }
+  #content { padding-top: 60px; } }
+@media screen and (min-width: 1200px) { /* Widen the fixed sidebar again */
+  #sidebar { width: 263px; } }
+.nav-pills > li > a { border-radius: 0px; border-left: 3px solid transparent; }
+.nav-pills > li > a:hover { color: #337ab7; }
+
+.nav-pills > li.active > a { color: #337ab7; background-color: transparent; border-left: 3px solid #337ab7; }
+
+.nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus { color: #337ab7; background-color: #eee; }
+
+@media screen and (max-width: 991px) { .nav-stacked > li { float: left; }
+  .nav-pills > li > a:hover, .nav-pills > li.active > a:hover { background-color: transparent; }
+  .nav-pills > li > a { border-left: none; border-bottom: 3px solid transparent; }
+  .nav-pills > li.active > a { border-left: none; border-bottom: 3px solid #337ab7; } }
+@media print { #content { width: 100%; margin: 0; float: none; background-color: transparent; }
+  h1 { font-size: 14pt; }
+  p, li { font-size: 10pt; }
+  h5, p { margin-bottom: 5px; }
+  .section { font-size: 12pt; }
+  #sidebar, #footer, .no-print { display: none; } }
