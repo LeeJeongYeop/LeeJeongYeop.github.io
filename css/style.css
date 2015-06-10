@@ -41,3 +41,5 @@ a.link-hover-bg:hover { display: block; background-color: #eee; }
   h5, p { margin-bottom: 5px; }
   .section { font-size: 12pt; }
   #sidebar, #footer, .no-print { display: none; } }
+
+em {font-size: 12px}
