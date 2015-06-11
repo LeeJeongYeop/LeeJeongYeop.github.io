@@ -1,5 +1,5 @@
 $(function(){
 	$(".ready").click(function(){
-		alert("준비 중입니다.");
+		alert("개발 테스트 중입니다.");
 	});
 });
