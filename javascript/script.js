@@ -7,6 +7,6 @@ $(function(){
 	ga('create', 'UA-64648971-1', 'auto');
 	ga('send', 'pageview');
 	$(".ready").click(function(){
-		alert("개발 테스트 중입니다.");
+		alert("개발 중입니다.");
 	});
 });
