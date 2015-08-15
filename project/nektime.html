@@ -12,7 +12,7 @@
 	<title>Nayak | Portfolio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 	<div class="container">
@@ -21,7 +21,7 @@
 				<div id="sidebar">
 					<div class="profile">
 						<a href="/" class="link-unstyled">
-							<img src="img/mongoose.jpg" alt="profile_image" class="img-rounded" style="width:100px;">
+							<img src="../img/mongoose.jpg" alt="profile_image" class="img-rounded" style="width:100px;">
 							<h3>JeongYeop Lee (Nayak)</h3>
 						</a>
 						<p>
@@ -51,7 +51,7 @@
 						<br>
 						<li>
 							<a href="https://github.com/LeeJeongYeop" class="link-unstyled" target="_blank">
-								<img src="img/github.JPG" style="width:15px"> github.com/LeeJeongYeop
+								<img src="../img/github.JPG" style="width:15px"> github.com/LeeJeongYeop
 							</a>
 						</li>
 					</ul>
@@ -60,82 +60,44 @@
 			</div>
 			<div class="col-md-9">
 				<div id="content">
-					<h1>Works</h1>
+					<h1>Nektime</h1>
+
+					<h3>Online Mock Interview Service (서비스 종료)</h3>
+
+					<p>
+						넥타임은 면접을 준비하는 취업준비생들에게 모의면접을 볼 수 있는 서비스를 제공해주는 웹 어플리케이션 입니다.
+						이미 등록되어있는 질문에 답변을 남길 수 있으며, 자신이 등록한 답변에 대해서 다른 사람들이 피드백을 보내는 서비스를 제공합니다.
+						뿐만 아니라 자신이 직접 들었던 질문들을 넥타임 서비스에 질문등록을 이용하여 다른사람들에게 공유할 수 있습니다.
+					</p>
+					<p>
+						<a href="http://nektime.herokuapp.com">http://nektime.herokuapp.com</a>
+					</p>
 
 					<hr>
+					<p align="center"><img src="../img/nektime1.JPG" alt="Nektime" class="img-responsive"/></p>
+					<p align="center"><img src="../img/nektime2.JPG" alt="Nektime" class="img-responsive"/></p>
+					<p align="center"><img src="../img/nektime3.JPG" alt="Nektime" class="img-responsive"/></p>
 
-					<a href="/project/nektime.html" class="link-unstyled link-hover-bg">
-						<div class="row">
-							<div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-								<img src="img/nektime.png" alt="nektime" class="img-responsive">
-							</div>
-							<div class="col-sm-8 col-xs-12">
-								<h3>
-									Nektime
-								</h3>
-								<p>
-									- Online Mock Interview Service
-								</p>
-								<ul>
-									<li>Angular.js</li>
-									<li>Node.js (Express)</li>
-									<li>MySQL</li>
-									<li>AWS EC2 / NignX</li>
-								</ul>
-							</div>
-						</div>
-					</a>
+					<h3 class="section">My Develop Part</h3>
+					<h5> - Back End Develop</h5>
+					<ul>
+						<li>서버 기능 구현</li>
+						<li>페이스북 연동</li>
+						<li>카테고리 필터를 통한 랜덤 질문</li>
+					</ul>
 
-					<hr>
-
-					<a href="/project/daldi.html" class="link-unstyled link-hover-bg">
-						<div class="row">
-							<div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-								<img src="img/daldi.png" alt="daldi" class="img-responsive">
-							</div>
-							<div class="col-sm-8 col-xs-12">
-								<h3>
-									Daldi (달콤한 디저트)
-								</h3>
-								<p>
-									- Dessert Recommend Application
-								</p>
-								<ul>
-									<li>Android</li>
-									<li>Node.js (Express)</li>
-									<li>MariaDB / Redis(used - Session Store)</li>
-									<li>AWS EC2 / NignX</li>
-								</ul>
-							</div>
-						</div>
-					</a>
-
-					<hr>
-
-					<a href="/project/cpms.html" class="link-unstyled link-hover-bg">
-						<div class="row">
-							<div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-								<img src="img/CPMS.png" alt="cpms" class="img-responsive">
-							</div>
-							<div class="col-sm-8 col-xs-12">
-								<h3>
-									CPMS
-								</h3>
-								<p>
-									- Cadi Project Management Service
-								</p>
-								<ul>
-									<li>HTML / CSS (Bootstrap) / JavaScript (jQuery)</li>
-									<li>PHP (Codeigniter)</li>
-									<li>MySQL</li>
-									<li>Apache</li>
-								</ul>
-							</div>
-						</div>
-					</a>
-
-					<hr>
+					<br>
+					<h3 class="section">Technology Stack & System Architecture</h3>
+					<ul>
+						<li>Angular.js</li>
+						<li>Node.js (Express)</li>
+						<li>MariaDB</li>
+						<li>NginX</li>
+					</ul>
+					<p align="center"><img src="../img/nektime_a.JPG" alt="Nektime" class="img-responsive"/></p>
 				</div>
+
+				<hr>
 				<div id="footer">
 					<p style="text-align: center; margin: 20px;">&copy; Sangyong Jung</p>
 				</div>
@@ -145,6 +107,6 @@
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<script src="javascript/script.js"></script>
+	<script src="../javascript/script.js"></script>
 </body>
 </html>
