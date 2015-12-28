@@ -16,8 +16,8 @@ category: Works
 
 ---
 <p align="center"><img src="/img/nektime/nektime1.JPG" alt="Nektime" class="img-responsive"/></p>
-<p align="center"><img src="/img/nektime/nektime1.JPG" alt="Nektime" class="img-responsive"/></p>
-<p align="center"><img src="/img/nektime/nektime1.JPG" alt="Nektime" class="img-responsive"/></p>
+<p align="center"><img src="/img/nektime/nektime2.JPG" alt="Nektime" class="img-responsive"/></p>
+<p align="center"><img src="/img/nektime/nektime3.JPG" alt="Nektime" class="img-responsive"/></p>
 
 <h3 class="section">My Develop Part</h3>
 <h5> - Back End Develop</h5>
