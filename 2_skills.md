@@ -155,4 +155,3 @@ database_ability : [0, 100, 60, 40]
 		</tbody>
 	</table>
 </div>
-</div>
