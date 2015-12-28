@@ -12,6 +12,8 @@ database_ability : [100, 60, 40]
 # {{ page.title }}
 ---
 
+<br>
+
 <h3 class="section">Programming</h3>
 
 <div class="row hidden-xs">
@@ -112,7 +114,7 @@ database_ability : [100, 60, 40]
 					<td class="col-sm-2">{{ node }}</td>
 					<td colspan="5" class="col-sm-10">
 						<div class="progress">
-							<div class="progress-bar-danger" role="progressbar" aria-valuemax="100" style="width: page.database_ability[forloop.index]}}%; height: 60px;">
+							<div class="progress-bar-danger" role="progressbar" aria-valuemax="100" style="width: {{page.database_ability[forloop.index]}}%; height: 60px;">
 							</div>
 						</div>
 					</td>

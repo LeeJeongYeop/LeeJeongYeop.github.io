@@ -15,9 +15,9 @@ category: Works
 [http://nektime.herokuapp.com](http://nektime.herokuapp.com){:target="_blank"}
 
 ---
-<p align="center"><img src="/img/nektime1.JPG" alt="Nektime" class="img-responsive"/></p>
-<p align="center"><img src="/img/nektime1.JPG" alt="Nektime" class="img-responsive"/></p>
-<p align="center"><img src="/img/nektime1.JPG" alt="Nektime" class="img-responsive"/></p>
+<p align="center"><img src="/img/nektime/nektime1.JPG" alt="Nektime" class="img-responsive"/></p>
+<p align="center"><img src="/img/nektime/nektime1.JPG" alt="Nektime" class="img-responsive"/></p>
+<p align="center"><img src="/img/nektime/nektime1.JPG" alt="Nektime" class="img-responsive"/></p>
 
 <h3 class="section">My Develop Part</h3>
 <h5> - Back End Develop</h5>
@@ -32,4 +32,4 @@ category: Works
 - NginX
 - AWS EC2 ubuntu 14.02
 
-<p align="center"><img src="/img/nektime_a.JPG" alt="Nektime" class="img-responsive"/></p>
+<p align="center"><img src="/img/nektime/nektime_a.JPG" alt="Nektime" class="img-responsive"/></p>
