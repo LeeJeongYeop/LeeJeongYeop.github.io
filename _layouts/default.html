@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="author" content="JeongYeop Lee, wjdduq914@gamil">
+	<meta name="copyright"content="Nayak">
+	<meta name="reply-to" content="wjdduq914@gmail.com">
+	<meta name="keyword" content="JeongYeop, Nayak">
+	<meta name="desciption" content="JeongYeop(Nayak)'s Portfolio">
+	<title>Nayak | Portfolio</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div id="sidebar">
+					{% include header.html %}
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div id="content">
+					{{ content }}
+				</div>
+				<div id="footer">
+					{% include footer.html %}
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="javascript/script.js"></script>
+</body>
+</html>
