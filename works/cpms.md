@@ -14,8 +14,8 @@ CODE FACTORIAL내에 다양한 개발 동아리(CADI-A, CADI-E, CADI-W, CADI-B)�
 github: [https://github.com/LeeJeongYeop/cpms](https://github.com/LeeJeongYeop/cpms){:target="_blank"}
 
 ---
-<p align="center"><img src="../img/cpms1.png" alt="CPMS" class="img-responsive"/></p>
-<p align="center"><img src="../img/cpms2.png" alt="CPMS" class="img-responsive"/></p>
+<p align="center"><img src="/img/cpms/cpms1.png" alt="CPMS" class="img-responsive"/></p>
+<p align="center"><img src="/img/cpms/cpms2.png" alt="CPMS" class="img-responsive"/></p>
 
 <h3 class="section">My Develop Part</h3>
 <h5> - Full Stack Develop</h5>
@@ -29,4 +29,4 @@ github: [https://github.com/LeeJeongYeop/cpms](https://github.com/LeeJeongYeop/c
 - MySQL
 - 개발시 테스트 서버 : olleh ucloud biz (현재 사용 안함)
 
-<p align="center"><img src="../img/cpms_a.JPG" alt="CPMS" class="img-responsive"/></p>
+<p align="center"><img src="/img/cpms/cpms_a.JPG" alt="CPMS" class="img-responsive"/></p>

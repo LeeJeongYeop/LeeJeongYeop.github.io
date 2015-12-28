@@ -15,8 +15,8 @@ Download: [https://play.google.com/store/apps/details?id=daldi.co.kr](https://pl
 github: [https://github.com/LeeJeongYeop/Daldi](https://github.com/LeeJeongYeop/Daldi){:target="_blank"}
 
 ---
-<p align="center"><img src="../img/daldi1.png" alt="Daldi" class="img-responsive"/></p>
-<p align="center"><img src="../img/daldi2.png" alt="Daldi" class="img-responsive"/></p>
+<p align="center"><img src="/img/daldi1.png" alt="Daldi" class="img-responsive"/></p>
+<p align="center"><img src="/img/daldi2.png" alt="Daldi" class="img-responsive"/></p>
 
 <h3 class="section">My Develop Part</h3>
 <h5> - Back End Develop</h5>
@@ -31,4 +31,4 @@ github: [https://github.com/LeeJeongYeop/Daldi](https://github.com/LeeJeongYeop/
 - MariaDB / Redis
 - AWS EC2 ubuntu 14.02
 
-<p align="center"><img src="../img/daldi_a.JPG" alt="Daldi" class="img-responsive"/></p>
+<p align="center"><img src="/img/daldi_a.JPG" alt="Daldi" class="img-responsive"/></p>
