@@ -4,9 +4,9 @@ title: Skills
 permalink: /skills/
 navigation: Skills
 program_languages : ["Node.js (Express)", "Python (Django)", "PHP (Codeigniter)", "Html / CSS (Bootstrap) / JavaScript (jQuery)", "Angular.js"]
-program_ability : [0, 100, 90, 80, 80, 30]
+program_ability : [0, 90, 90, 80, 80, 30]
 database : ["MariaDB (MySQL)", "MongoDB", "Redis"]
-database_ability : [0, 100, 60, 40]
+database_ability : [0, 90, 60, 40]
 ---
 
 # {{ page.title }}
