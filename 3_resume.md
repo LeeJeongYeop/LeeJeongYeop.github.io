@@ -34,9 +34,27 @@ navigation: Resume
 - Experienced at MongoDB
 - Learning Redis
 
+
+<br>
+
+<h3 class="section">Career</h3>
+
+##### **INNOBOOSTRIA** | 2015.07 - 2016.01
+-*INNOBOOST (Official Homepage - [INNOBOOST](http://www.innoboost.co.kr){:target="_blank"})*
+
+- 7개월간 프리랜서 개발자로 활동
+- INNOBOOST 회사의 사내 업무 솔루션 '[INNOBOOSTRIA]({{site.url}}/works/innoboostria/)' 개발 (인트라넷)
+
 <br>
 
 <h3 class="section">Project</h3>
+
+##### **INNOBOOSTRIA | INNOBOOST | 2015.07 - 2016.01**
+- 사내 업무 솔루션 및 스케줄관리, HR, 재무관리 시스템 개발
+- with Dongkyu Lee(Back-End)
+- Python(Django) / HTML(used Django Template) / CSS / JavaScript(jQuery) / MariaDB(used Django ORM)
+- 담당 파트 - Full-Stack Develop
+- Detail - [INNOBOOSTRIA]({{site.url}}/works/innoboostria/)
 
 ##### **Clicky | hanium | 2015.07 - 2015.12**
 - 버튼을 통해 생활을 관리하는 임베디드 어플리케이션
@@ -52,7 +70,7 @@ navigation: Resume
 - 담당 파트 - Back-end Develop
 - Detail - [nektime]({{site.url}}/works/nektime/)
 
-##### **Daldi-달콤한디저트 | T 아카데미 | 2015.04 - 2015.05**
+##### **Daldi-달콤한디저트 | SK 플래닛 T 아카데미 | 2015.04 - 2015.05**
 - Dessert Recommend Application
 - with SooHyun Kang(Android), SooMin Lee(UI Design)
 - Android / Node.js(Express) / MariaDB / Redis
