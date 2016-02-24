@@ -63,7 +63,7 @@ database_ability : [0, 90, 60, 40]
 				<td>Python (Django)</td>
 				<td>
 					<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-					(Used in Projects)
+					(Experienced)
 				</td>
 			</tr>
 			<tr>
