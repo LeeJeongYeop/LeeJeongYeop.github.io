@@ -53,8 +53,8 @@ database_ability : [0, 90, 60, 40]
 			<tr>
 				<td>Node.js (Express)</td>
 				<td>
-					<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-					(Experienced)
+					<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+					(Used in Projects)
 				</td>
 			</tr>
 		</thead>
