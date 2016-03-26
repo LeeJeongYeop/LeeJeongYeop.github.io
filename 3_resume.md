@@ -49,6 +49,13 @@ navigation: Resume
 
 <h3 class="section">Project</h3>
 
+##### **Antenna | Nexters | 2015.07 - 2016.02**
+- 음악 취향에 맞게 익명으로 1:1 매칭되어 음악을 추천해주는 어플리케이션
+- with 개나소나팀
+- IOS / Node.js(Express) / MariaDB
+- 담당 파트 - Back-end Develop
+- Detail - [Antenna]({{site.url}}/works/antenna/)
+
 ##### **INNOBOOSTRIA | INNOBOOST | 2015.07 - 2016.01**
 - 사내 업무 솔루션 및 스케줄관리, HR, 재무관리 시스템 개발
 - with Dongkyu Lee(Back-End)
@@ -94,23 +101,25 @@ navigation: Resume
 - Imagine Boot Camp for MSP 9th 참여
 - The First Semiar for MSP 참석
 
-##### **Nexters (7기)** | 2015.07 - 활동 중
+##### **Nexters (7기)** | 2015.07 - 2016.02
 -*연합 앱, 웹 개발 동아리 (Official Home Page - [Nexters](http://teamnexters.com/){:target="_blank"})*
 
-- 익명으로 랜덤 1:1 매칭되어 음악을 추천해주는 어플리케이션 ([Antenna](#){:class="ready"})
+- 음악 취향에 맞게 익명으로 1:1 매칭되어 음악을 추천해주는 어플리케이션 ([Antenna]({{site.url}}/works/antenna/))
 - Back-end Develop (Node.js, MariaDB)
-- Server - AWS EC2 ubuntu 14.02
+- Server - Digital Ocean
 
 ##### **한이음 프로보노 ICT멘토링 프로젝트 (멘티)** | 2015.07 - 2015.12
 -*한이음에서 진행하는 기업연계 착한기술 프로젝트 (Official Home Page - [hanium](http://www.hanium.or.kr/portal/index.do){:target="_blank"})*
 
 - 버튼을 통해 생활을 관리하는 임베디드 어플리케이션 ([Clicky]({{site.url}}/works/clicky/))
 - Back-end Develop (Node.js, MongoDB)
+- Server - Digital Ocean
 
 ##### **Nektie Co. (Developer)** | 2015.03 - 2015.08
 -*기업과 학생 및 취준생 사이의 SNS 서비스 (unit service - [Nektime]({{site.url}}/works/nektime/))*
 
 - Back-end Develop (Node.js, MySQL)
+- Server - AWS EC2 ubuntu 14.02
 
 ##### **한국대학생IT경영학회 (11기 운영진)** | 2015.01 - 2015.05
 -*순수 대학생들이 모여 'IT', '경영', 'IT+경영'을 공부 및 연구 (Blog - [KUSITMS](http://kusitms.tistory.com/){:target="_blank"})*
@@ -129,6 +138,7 @@ navigation: Resume
 
 - CADI 내의 동아리 관리 및 프로젝트 관리 서비스 개발 ([CPMS]({{site.url}}/works/cpms/))
 - Full-Stack Develop (HTML, CSS, JavaScript(jQuery), PHP(Codeigniter), MySQL)
+- Server - olleh ucloud biz
 
 ##### **한국대학생IT경영학회(10기 회원)** | 2014.09 - 2014.12
 -*순수 대학생들이 모여 'IT', '경영', 'IT+경영'을 공부 및 연구 (Blog - [KUSITMS](http://kusitms.tistory.com/){:target="_blank"})*
