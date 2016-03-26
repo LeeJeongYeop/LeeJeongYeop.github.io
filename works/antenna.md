@@ -13,7 +13,7 @@ category: Works
 사용자들은 안테나 서비스를 이용시 자신만의 고유한 주파수를 가지게되며, 다른 사람들이 추천한 여러 노래들을 Like, Dislike로 평가합니다.  
 그 평가 내용을 바탕으로 가장 자신과 음악적 취향이 비슷한 사람의 주파수를 추천받으며 추천받은 사람과 서로 음악을 주고받으며 소통합니다.
 
-github: [https://github.com/LeeJeongYeop/Antenna](https://github.com/LeeJeongYeop/Antenna){:target="_blank"} (Server Source)
+github: [https://github.com/LeeJeongYeop/Antenna](https://github.com/LeeJeongYeop/Antenna){:target="_blank"} (Server Source)  
 App Store: [https://itunes.apple.com/us/app/id1076474784](https://itunes.apple.com/us/app/id1076474784){:target="_blank"}
 
 ---
