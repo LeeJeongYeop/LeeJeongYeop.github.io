@@ -26,7 +26,7 @@ navigation: Resume
 - Proficient at Node.js, Python(Django) and PHP(Codeigniter)
 - Comprehensively understanding MVC pattern
 - Experienced at HTML5 / CSS3 / javaScript(jQuery)
-- Learning Angular.js
+- Learning React and Redux pattern
 - Learning Cloud Computing
 
 ##### Database Using Ability

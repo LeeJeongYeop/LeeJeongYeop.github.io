@@ -3,7 +3,7 @@ layout: default
 title: Skills
 permalink: /skills/
 navigation: Skills
-program_languages : ["Node.js (Express)", "Python (Django)", "PHP (Codeigniter)", "Html / CSS (Bootstrap) / JavaScript (jQuery)", "Angular.js"]
+program_languages : ["Node.js (Express)", "Python (Django)", "PHP (Codeigniter)", "Html / CSS (Bootstrap) / JavaScript (jQuery)", "React-Redux"]
 program_ability : [0, 90, 90, 80, 80, 30]
 database : ["MariaDB (MySQL)", "MongoDB", "Redis"]
 database_ability : [0, 90, 60, 40]
@@ -54,7 +54,7 @@ database_ability : [0, 90, 60, 40]
 				<td>Node.js (Express)</td>
 				<td>
 					<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-					(Used in Projects)
+					(Experienced)
 				</td>
 			</tr>
 		</thead>
