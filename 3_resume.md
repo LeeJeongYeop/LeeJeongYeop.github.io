@@ -13,8 +13,8 @@ navigation: Resume
 
 <h3 class="section">Education</h3>
 
-##### 남서울대학교 | 컴퓨터학과 전공 | 2010.3 - 현재
-- 학점 : 3.92 / 4.5
+##### 남서울대학교 | 컴퓨터학과 전공 | 2010.03 - 2017.02 (졸업)
+- 학점 : 3.89 / 4.5
 
 ##### 수성고등학교 | 2007.03 - 2010.02
 
@@ -23,10 +23,10 @@ navigation: Resume
 <h3 class="section">Skills &amp; Expertise</h3>
 
 ##### Programming Skills
-- Proficient at Node.js, Python(Django) and PHP(Codeigniter)
-- Comprehensively understanding MVC pattern
+- Proficient at Node.js, Python(Django)
 - Experienced at HTML5 / CSS3 / javaScript(jQuery)
-- Learning React and Redux pattern
+- Experienced at React, Vue.js
+- Learning DevOps
 - Learning Cloud Computing
 
 ##### Database Using Ability
@@ -39,6 +39,15 @@ navigation: Resume
 
 <h3 class="section">Career</h3>
 
+##### **SEESO** | 2017.02 - 현재
+-*SEESO (Official Homepage - [SEESO](http://seeso.kr/){:target="_blank"})*
+
+- 웹 및 모바일 서버 개발자로 활동
+- [내일 상점](http://tomorrowmyshop.com/){:target="_blank"} 관리자 페이지 개발
+- [롤링다이스](http://www.rollingdice.co.kr/){:target="_blank"} 웹 기반 도서 정산 시스템 개발
+- [Catchit](https://play.google.com/store/apps/details?id=com.nxc.catchitenglishbasic.google/){:target="_blank"} 쇼핑몰 개발 (런칭 전)
+- 동구밭 웹 서비스 개발 (런칭 전)
+
 ##### **INNOBOOSTRIA** | 2015.07 - 2016.01
 -*INNOBOOST (Official Homepage - [INNOBOOST](http://www.innoboost.co.kr){:target="_blank"})*
 
@@ -48,6 +57,32 @@ navigation: Resume
 <br>
 
 <h3 class="section">Project</h3>
+
+##### **동구밭 | SEESO | 2017.02 - 진행 중**
+- 동구밭 웹 서비스
+- Python(Django) / HTML(used Django Template) / CSS / JavaScript(jQuery) / MariaDB(used Django ORM)
+- 담당 파트 - Full-Stack Develop
+- Detail - 작성중
+
+##### **Catchit 쇼핑몰 | SEESO | 2017.02 - 진행 중**
+- 교육 서비스 [Catchit](https://play.google.com/store/apps/details?id=com.nxc.catchitenglishbasic.google/){:target="_blank"} 쇼핑몰
+- Python(Django) / HTML(used Django Template) / CSS / JavaScript(jQuery) / MariaDB(used Django ORM)
+- 담당 파트 - Full-Stack Develop
+- Detail - 작성중
+
+##### **롤링다이스 정산 시스템 | SEESO | 2016.11 - 2017.01**
+- 지식나눔 협동조합 [롤링다이스](http://www.rollingdice.co.kr/){:target="_blank"} 웹 도서 정산 시스템
+- with [땡글이](https://github.com/DDanggle)(File-System)
+- Python(Django) / HTML(used Django Template) / CSS / JavaScript(jQuery) / MariaDB(used Django ORM)
+- 담당 파트 - Full-Stack Develop
+- Detail - 작성중
+
+##### **내일상점 관리자 | SEESO | 2016.10 - 2016.12**
+- 클라우드 펀딩 서비스 [내일 상점](http://tomorrowmyshop.com/){:target="_blank"}의 관리자 페이지
+- with [땡글이](https://github.com/DDanggle)(Front-End)
+- React
+- 담당 파트 - Front-end Develop
+- Detail - 작성중
 
 ##### **Antenna | Nexters | 2015.07 - 2016.02**
 - 음악 취향에 맞게 익명으로 1:1 매칭되어 음악을 추천해주는 어플리케이션
@@ -95,7 +130,7 @@ navigation: Resume
 
 <h3 class="section">Activities</h3>
 
-##### **MSP (9기)** | 2015.08 - 활동 중
+##### **MSP (9기)** | 2015.08 - 2016.08
 -*Microsoft Student Partner (CAFE - [MSP](http://cafe.naver.com/mspforever){:target="_blank"})*
 
 - Imagine Boot Camp for MSP 9th 참여
