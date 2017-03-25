@@ -3,8 +3,8 @@ layout: default
 title: Skills
 permalink: /skills/
 navigation: Skills
-program_languages : ["Node.js (Express)", "Python (Django)", "PHP (Codeigniter)", "Html / CSS (Bootstrap) / JavaScript (jQuery)", "React-Redux"]
-program_ability : [0, 90, 90, 80, 80, 30]
+program_languages : ["Node.js (Express)", "Python (Django)", "Html / CSS (Bootstrap) / JavaScript (jQuery)", "Vue.js"]
+program_ability : [0, 100, 90, 80, 30]
 database : ["MariaDB (MySQL)", "MongoDB", "Redis"]
 database_ability : [0, 90, 60, 40]
 ---
@@ -67,13 +67,6 @@ database_ability : [0, 90, 60, 40]
 				</td>
 			</tr>
 			<tr>
-				<td>PHP (Codeigniter)</td>
-				<td>
-					<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
-					(Used in Projects)
-				</td>
-			</tr>
-			<tr>
 				<td>Html / CSS (Bootstrap) / JavaScript (jQuery)</td>
 				<td>
 					<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
@@ -81,7 +74,7 @@ database_ability : [0, 90, 60, 40]
 				</td>
 			</tr>
 			<tr>
-				<td>Angular.js</td>
+				<td>Vue.js</td>
 				<td>
 					<i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
 					(Learning)
