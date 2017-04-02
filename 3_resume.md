@@ -44,7 +44,7 @@ navigation: Resume
 
 - 웹 및 모바일 서버 개발자로 활동
 - '[내일 상점 관리자 페이지]({{site.url}}/works/tomorrow-store-admin/)' 개발 (Service: [내일 상점](http://tomorrowmyshop.com/){:target="_blank"})
-- [롤링다이스](http://www.rollingdice.co.kr/){:target="_blank"} 웹 기반 도서 정산 시스템 개발
+- '[롤링다이스 웹 기반 도서 정산 시스템]({{site.url}}/works/rolling-admin/)' 개발 (Official Home Page:[롤링다이스](http://www.rollingdice.co.kr/){:target="_blank"})
 - [Catchit](https://play.google.com/store/apps/details?id=com.nxc.catchitenglishbasic.google/){:target="_blank"} 쇼핑몰 개발 (런칭 전)
 - 동구밭 웹 서비스 개발 (런칭 전)
 
@@ -75,7 +75,7 @@ navigation: Resume
 - with [땡글이](https://github.com/DDanggle)(File-System)
 - Python(Django) / HTML(used Django Template) / CSS / JavaScript(jQuery) / MariaDB(used Django ORM)
 - 담당 파트 - Full-Stack Develop
-- Detail - 작성중
+- Detail - [롤링다이스 정산 시스템]({{site.url}}/works/rolling-admin/)
 
 ##### **내일상점 관리자 | SEESO | 2016.10 - 2016.12**
 - 클라우드 펀딩 서비스 [내일 상점](http://tomorrowmyshop.com/){:target="_blank"}의 관리자 페이지
