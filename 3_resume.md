@@ -11,12 +11,40 @@ navigation: Resume
 
 <br>
 
+<h3 class="section">Career</h3>
+
+##### **Naver** | 2017.09 - 현재
+-*Naver (Official Homepage - [Naver](http://www.naver.co.kr){:target="_blank"})*
+
+- 콘텐츠 중계 개발
+
+##### **SEESO** | 2017.02 - 2017.06
+-*SEESO (Official Homepage - [SEESO](http://seeso.kr/){:target="_blank"})*
+
+- 웹 및 모바일 서버 개발자로 활동
+- 단골공장 웹 서비스 개발 (Service: [단골공장](https://www.dangolgongjang.com/){:target="_blank"})
+- 동구밭 웹 서비스 개발 (Service: [동구밭](https://www.donggubat.com/){:target="_blank"})
+- '[내일 상점 관리자 페이지]({{site.url}}/works/tomorrow-store-admin/)' 개발 (Service: [내일 상점](http://tomorrowmyshop.com/){:target="_blank"})
+- '[롤링다이스 웹 기반 도서 정산 시스템]({{site.url}}/works/rolling-admin/)' 개발 (Official Home Page:[롤링다이스](http://www.rollingdice.co.kr/){:target="_blank"})
+- [Catchit](https://play.google.com/store/apps/details?id=com.nxc.catchitenglishbasic.google/){:target="_blank"} 쇼핑몰 개발 (런칭 전)
+
+
+##### **INNOBOOSTRIA** | 2015.07 - 2016.01
+-*INNOBOOST (Official Homepage - [INNOBOOST](http://www.innoboost.co.kr){:target="_blank"})*
+
+- 7개월간 프리랜서 개발자로 활동
+- INNOBOOST 회사의 사내 업무 솔루션 '[INNOBOOSTRIA]({{site.url}}/works/innoboostria/)' 개발 (인트라넷)
+
+<br>
+
 <h3 class="section">Education</h3>
 
 ##### 남서울대학교 | 컴퓨터학과 전공 | 2010.03 - 2017.02 (졸업)
 - 학점 : 3.89 / 4.5
 
 ##### 수성고등학교 | 2007.03 - 2010.02
+
+<br>
 
 <br>
 
@@ -33,26 +61,6 @@ navigation: Resume
 - Proficient at MariaDB(MySQL)
 - Experienced at MongoDB
 - Learning Redis
-
-
-<br>
-
-<h3 class="section">Career</h3>
-
-##### **SEESO** | 2017.02 - 현재
--*SEESO (Official Homepage - [SEESO](http://seeso.kr/){:target="_blank"})*
-
-- 웹 및 모바일 서버 개발자로 활동
-- '[내일 상점 관리자 페이지]({{site.url}}/works/tomorrow-store-admin/)' 개발 (Service: [내일 상점](http://tomorrowmyshop.com/){:target="_blank"})
-- '[롤링다이스 웹 기반 도서 정산 시스템]({{site.url}}/works/rolling-admin/)' 개발 (Official Home Page:[롤링다이스](http://www.rollingdice.co.kr/){:target="_blank"})
-- [Catchit](https://play.google.com/store/apps/details?id=com.nxc.catchitenglishbasic.google/){:target="_blank"} 쇼핑몰 개발 (런칭 전)
-- 동구밭 웹 서비스 개발 (런칭 전)
-
-##### **INNOBOOSTRIA** | 2015.07 - 2016.01
--*INNOBOOST (Official Homepage - [INNOBOOST](http://www.innoboost.co.kr){:target="_blank"})*
-
-- 7개월간 프리랜서 개발자로 활동
-- INNOBOOST 회사의 사내 업무 솔루션 '[INNOBOOSTRIA]({{site.url}}/works/innoboostria/)' 개발 (인트라넷)
 
 <br>
 
