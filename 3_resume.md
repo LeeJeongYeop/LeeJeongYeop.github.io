@@ -66,13 +66,19 @@ navigation: Resume
 
 <h3 class="section">Project</h3>
 
-##### **동구밭 | SEESO | 2017.02 - 진행 중**
-- 동구밭 웹 서비스
+##### **단골공장 | SEESO | 2017.04 - 2017.06**
+- [단골공장](https://www.dangolgongjang.com/){:target="_blank"} 웹 서비스
+- Python(Django) / MariaDB(used Django ORM)
+- 담당 파트 - Back-end Develop
+- Detail - 작성중
+
+##### **동구밭 | SEESO | 2017.02 - 2017.04**
+- [동구밭](https://www.donggubat.com/){:target="_blank"} 웹 서비스
 - Python(Django) / HTML(used Django Template) / CSS / JavaScript(jQuery) / MariaDB(used Django ORM)
 - 담당 파트 - Full-Stack Develop
 - Detail - 작성중
 
-##### **Catchit 쇼핑몰 | SEESO | 2017.02 - 진행 중**
+##### **Catchit 쇼핑몰 | SEESO | 2017.02 - 2017.03**
 - 교육 서비스 [Catchit](https://play.google.com/store/apps/details?id=com.nxc.catchitenglishbasic.google/){:target="_blank"} 쇼핑몰
 - Python(Django) / HTML(used Django Template) / CSS / JavaScript(jQuery) / MariaDB(used Django ORM)
 - 담당 파트 - Full-Stack Develop
